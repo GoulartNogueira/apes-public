@@ -123,4 +123,4 @@ iface = gr.Interface(
     ],
     outputs=["image", "video"],
 )
-iface.launch(inbrowser=True)
+iface.launch(inbrowser=True, share=True)
